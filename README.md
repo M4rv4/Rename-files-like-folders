@@ -13,6 +13,7 @@ Pattern: Users can specify a pattern (e.g., "-1" or "_1") to be appended to the 
 <li>The status bar at the bottom of the GUI will show the progress of the file renaming, indicating the total number of files and the number of renamed files.</li>
 <li>After completion, a pop-up notification will appear to notify the user of the successful file renaming process.</li>
 </ol>
-__Please note that the script avoids renaming any Python script files with the extension ".py" used to run the script.__
+
+**Please note that the script avoids renaming any Python script files with the extension ".py" used to run the script.**
 
 The "File Renaming Tool" is a useful utility for quickly and efficiently renaming multiple files in nested folders, saving time and effort for various file organization tasks.
