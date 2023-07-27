@@ -5,6 +5,8 @@
 - Folder Selection: Users can select a root folder from which the tool will start renaming files in all its subfolders.
 - Pattern: Users can specify a pattern (e.g., "-1" or "_1") to be appended to the new filename.
 
+![example](/assets/images/43m690vclad.png "example")
+
 ### How to Use
 <ol>
 <li>Launch the script and a GUI window will appear.</li>
