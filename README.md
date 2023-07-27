@@ -2,8 +2,8 @@
 <p>"File Renaming Tool" is a Python script that provides a Graphical User Interface (GUI) to rename files in a selected folder and its subfolders. The tool is designed to facilitate bulk file renaming tasks</p>
 
 ## Features
-Folder Selection: Users can select a root folder from which the tool will start renaming files in all its subfolders.
-Pattern: Users can specify a pattern (e.g., "-1" or "_1") to be appended to the new filename.
+- Folder Selection: Users can select a root folder from which the tool will start renaming files in all its subfolders.
+- Pattern: Users can specify a pattern (e.g., "-1" or "_1") to be appended to the new filename.
 
 ### How to Use
 <ol>
