@@ -13,10 +13,13 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
+    - name: Install xvfb and other required packages
+      run: sudo apt-get update && sudo apt-get install xvfb python3-tk -y
+
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
         python-version: '3.x' # Replace 'x' with the appropriate Python version
-
-    - name: Run the script
-      run: python main.py # Replace 'your_script.py' with the filename of your script
+        
+    - name: Run the script with xvfb
+      run: xvfb-run -a python main.py # Replace 'your_script.py' with the filename of your script
